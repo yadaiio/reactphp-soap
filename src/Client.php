@@ -61,7 +61,7 @@ use React\Promise\PromiseInterface;
  *         // do something…
  *     },
  *     function (Exception $e) {
- *         // an error occured while trying to download the WSDL
+ *         // an error occurred while trying to download the WSDL
  *     }
  * );
  * ```

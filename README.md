@@ -142,7 +142,7 @@ $browser->get($url)->then(
         // do something…
     },
     function (Exception $e) {
-        // an error occured while trying to download the WSDL
+        // an error occurred while trying to download the WSDL
     }
 );
 ```
@@ -360,7 +360,7 @@ $proxy->demo()->then(
         // response received for demo function
     },
     function (Exception $e) {
-        // an error occured while executing the request
+        // an error occurred while executing the request
     }
 });
 ```

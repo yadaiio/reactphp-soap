@@ -36,7 +36,7 @@ final class ClientEncoder extends \SoapClient
      * By overwriting this method, we can skip the actual request sending logic
      * and still use the internal request serializing logic by accessing the
      * given `$request` parameter and building our custom request object from
-     * it. We skip/ignore its parsing logic by returing an empty response here.
+     * it. We skip/ignore its parsing logic by returning an empty response here.
      * This will implicitly be invoked by the call to `__soapCall()` in the
      * above `encode()` method.
      *
